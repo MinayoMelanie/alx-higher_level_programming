@@ -1,10 +1,17 @@
 #!/usr/bin/python3
-def new_in_list(my_list, idx, element):
-    new_list = my_list
-    if idx < 0 or idx > len(my_list)-1:
-            return new_list
-    else:
-        return my_list[idx]
+"""No C or c"""
+
+
+def no_c(my_string):
+    """
+    What i do
+    """
+    newstr = ""
+    for i in my_string:
+        if i not in "cC":
+            newstr += i
+    return newstr
+
 
     
 
