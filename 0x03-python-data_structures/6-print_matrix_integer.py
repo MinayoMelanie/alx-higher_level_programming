@@ -4,4 +4,3 @@ def print_matix_integer(matrix=[[]]):
         for i in lst:
             print("{}".format(i), end='')
         print()
-
