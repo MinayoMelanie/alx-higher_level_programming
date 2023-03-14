@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def print_matix_integer(matrix=[[]]):
-    for lst in matrix:
-        for i in lst:
-            print("{}".format(i), end='')
-        print()
+    for i in range(matrix[i]):
+        print("{:d}".format(matrix[i][j]), end='')
+        if j !=(len(matrix[i])-1):
+            print(" ", end='')
+        print("")
