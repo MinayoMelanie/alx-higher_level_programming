@@ -11,9 +11,3 @@ def no_c(my_string):
         if i not in "cC":
             newstr += i
     return newstr
-
-
-    
-
-
-
